@@ -23,8 +23,8 @@ import javax.mail.internet.MimeMessage;
  * @author smikayilov
  */
 public class Email {
-private String from="sinaq08@gmail.com";
-private String password="('Sinaq08')";
+private String from="?";
+private String password="??";
 private String subject="Authentication code";
     public  void send(String to,int code) {
         try {
